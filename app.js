@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 
-const userApi = require("./api/user");
+const userApi = require("./API/user");
 const db = require("./db/db");
 
 app.use(bodyParser.urlencoded({ extended: false }));

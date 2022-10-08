@@ -1,0 +1,29 @@
+{
+  "name": "being-parent",
+  "version": "1.0.0",
+  "description": "task ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajanjha696/being-parent.git"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "haversine-distance": "^1.2.1",
+    "http-status": "^1.5.3",
+    "mongoose": "^6.6.0",
+    "pincode-lat-long": "^1.0.3"
+  },
+  "author": "Rajan Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajanjha696/being-parent/issues"
+  },
+  "homepage": "https://github.com/Rajanjha696/being-parent#readme"
+}
